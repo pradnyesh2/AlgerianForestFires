@@ -1,7 +1,4 @@
 numpy
 pandas
-matplotlib.pyplot
-seaborn
 scikit-learn
-pickle
 flask

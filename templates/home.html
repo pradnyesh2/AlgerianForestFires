@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title> The Algerian Forest Fire Prediction </title><br>
+</head>
+
+<body>
+    <div class="Login"> 
+    <h1>We are predicting FWI</h1>
+
+    <!-- Main input for receiving query to our ML model -->
+    <form action="{{url_for('predict_datapoint')}}", method="post">
+    <label for="Temperature">Temperature:</label><br>
+    <input type="text" name="Temperature" placeholder="Temperature in Ferenheit" required="required" /><br>
+    <label for="RH">RH:</label><br>
+    <input type="text" name="RH" placeholder="RH" required="required" /><br>
+    <label for="WS">WS:</label><br>
+    <input type="text" name="WS" placeholder="WS" required="required" /><br>
+    <label for="Rain">Rain:</label><br>
+    <input type="text" name="Rain" placeholder="Rain" required="required" /><br>
+    <label for="FFMC">FFMC:</label><br>
+    <input type="text" name="FFMC" placeholder="FFMC" required="required" /><br>
+    <label for="DMC">DMC:</label><br>
+    <input type="text" name="DMC" placeholder="DMC" required="required" /><br>
+    <label for="ISI">ISI:</label><br>
+    <input type="text" name="ISI" placeholder="ISI" required="required" /><br>
+    <label for="Classes">Classes:</label><br>
+    <input type="text" name="Classes" placeholder="Classes" required="required" /><br>
+    <label for="Region">Region:</label><br>
+    <input type="text" name="Region" placeholder="Region" required="required" /><br>
+    <br>
+
+    <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+    </div>
+<h4>
+    The FWI prediction is {{results}}
+</h4>
+
+</body>
+</html>
