@@ -32,8 +32,8 @@ FWI Components
  <img src=https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg width=200 height=100> <img src=https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg width=200 height=100>
 
 ### Cloud Platform used:
-<img src="Elastic Beanstalk.png"  width="200" height="100">
-<img src="CodePipeline.png" width="200" height="100">
+<img src="Elastic Beanstalk.png" alt="aws elastic beanstalk" width="100" height="100">
+<img src="CodePipeline.png" alt="aws code pipeline" width="100" height="100">
 
 ### IDE's used for the project:
 <img src=https://upload.wikimedia.org/wikipedia/commons/2/2d/Visual_Studio_Code_1.18_icon.svg width=200 height=100> <img src=https://github.com/jupyter/jupyter.github.io/blob/main/assets/share.png width=200 height=100>
